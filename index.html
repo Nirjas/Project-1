@@ -5,22 +5,23 @@
     <title>Lawyer &amp; Attorney</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:600|Open+Sans" rel="stylesheet">
+    <script src="https://use.fontawesome.com/50914b369e.js"></script>
   </head>
   <body>
     <!-- topbar -->
     <div class="row" id="topbar">
       <div class="wrapper">
-        <div class="col-7">
-          <p>we are a law firm located in Barlin</p>
+        <div class="col-6">
+          <p>We are a law firm located in Barlin</p>
         </div>
         <div class="col-2">
-          <p>Lange St 32, Berlin</p>
+          <p><i class="fa fa-home" aria-hidden="true"></i> Lange St 32, Berlin</p>
         </div>
         <div class="col-2">
-          <p>Mon-Sat: 8:00-17:30</p>
+          <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Sat: 8:00-17:30</p>
           </div>
-          <div class="col-1">
-            f t in
+          <div class="col-2" id="social">
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           </div>
         </div>
       </div><!-- topbar end here -->
@@ -29,16 +30,32 @@
     <div class="row" id="header">
       <div class="wrapper">
       <div class="col-6">
-        <h1>Lawyer &amp; Attorney</h1>
-        <p>Hunton &amp; Williams</p>
+        <div class="col-2 logo">
+          <img src="images/logo.jpg" alt="logo">
+        </div>
+        <div class="col-10">
+          <h1 id="title">Lawyer &amp; Attorney</h1>
+          <p id="tagline">Hunton &amp; Williams</p>
+        </div>
+
       </div>
       <div class="col-3">
-        <h4>Questions?</h4>
-        <p>Send us an E-mail</p>
+        <div class="col-4 contact">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+        <div class="col-8">
+          <h4 class="header-cta">Questions?</h4>
+          <p class="header-text">Send us an E-mail</p>
+        </div>
       </div>
       <div class="col-3">
-        <h4>Call us on:</h4>
-        <p>430-388-223</p>
+        <div class="col-4 contact">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <div class="col-8">
+          <h4 class="header-cta">Call us on:</h4>
+          <p class="header-text">430-388-223</p>
+        </div>
       </div>
     </div>
     </div><!-- logo & header end here -->
@@ -62,33 +79,32 @@
       <div class="wrapper">
 
       <div class="col-8">
-        <img src="" alt="">
+        <img src="images/header.jpg" alt="header" width="100%" height="auto">
         <h2>Lorem ipsum dolor sit amet laborum.</h2>
         <p>Dec 3, 2017</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <div class="col-4">
-        <div class="">
+        <div class="about-office">
           <h3>About our office</h3>
           <a href="#">Learn more</a>
         </div>
-        <div class="">
-          <ul>
-            <li>
-                <h4>Visit us</h4>
+        <div class="office-info">
+          <div class="item visit">
+              <h4><i class="fa fa-map-marker" aria-hidden="true"></i> Visit us</h4>
                 <p>Lange strasse 32 <br>
                   38233DE,Berlin(Germany)
                 </p>
-              </li>
-              <li>
-                <h4>Call us</h4>
+              </div>
+          <div class="item call">
+              <h4><i class="fa fa-phone" aria-hidden="true"></i> Call us</h4>
                 <p>Call us on 430-388-223</p>
-              </li>
-              <li>
-                <h4>Mail us</h4>
+              </div>
+          <div class="item mail">
+            <h4><i class="fa fa-envelope-o" aria-hidden="true"></i> Mail us</h4>
                 <p>Mail us on <a href="#">info@huntonwilliams.com</a></p>
-              </li>
-            </ul>
+            </div>
+
           </div>
         </div>
       </div>
@@ -96,8 +112,10 @@
       <!-- footer -->
       <div class="row" id="footer">
         <div class="wrapper">
-        <p>&copy; 2017 by Nirjas</p>
-      </div>
+          <div class="col-12">
+            <p>&copy; 2017 by Nirjas</p>
+          </div>
+        </div>
       </div><!-- footer end here -->
 
 
